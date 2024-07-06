@@ -1,0 +1,35 @@
+<a><b><c><d><e><f><g><h><i>
+<style>
+    body {
+        background: #024817;
+        display: grid;
+        place-items: center
+    }
+
+    a {
+        position: relative;
+        width: 60;
+        height: 60;
+        border-radius: 50%;
+        background: #48BF7D
+    }
+
+    b, c, d, e, f, g, h, i {
+        width: 40;
+        height: 40;
+        background: #48BF7D;
+        position: absolute;
+        top: -60;
+        left: 10;
+        transform-origin: center;
+        border-radius: 50%
+    }
+
+    c, d, e, f, g, h, i {
+        top: 0;
+        left: 0;
+        transform: translate(49.5px,20.5px)rotate(45deg)
+    }
+
+    b, d, h, f {
+        background: #176C36
