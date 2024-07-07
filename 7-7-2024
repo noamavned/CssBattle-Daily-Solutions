@@ -1,0 +1,29 @@
+<a><b><c><d>
+<style>
+  body {
+    background:#F48B26;
+    display:grid;
+    place-items:center
+  }
+  a, b, c, d {
+    width:400;
+    height:450;
+    border-radius:50%;
+    background:#FEFF58;
+    position:absolute;
+    left:-275
+  }
+  b {
+    left:550
+  }
+  c, d {
+    width:50;
+    height:50;
+    left:-100;
+    top:150
+  }
+  d {
+    left:0;
+    top:65;
+    height:500;
+    border-radius:50q
