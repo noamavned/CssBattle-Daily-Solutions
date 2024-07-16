@@ -1,17 +1,21 @@
-<c><a><a><a><a>
+<a><b><c><b>
 <style>
-  c {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 106q 212q;
-    place-items: center;
-    position: absolute;
-    top: -50;
-    left: -50;
+  body {
     background: #4F77FF
   }
-  a {
+  a, b, c {
     width: 150;
     height: 150;
     background: #EFF8FE;
-    border-radius: 42q
+    border-radius: 45q;
+    position: absolute;
+    left: -50;
+    top: -50
+  }
+  b {
+    left: 0;
+    top: 250
+  }
+  c {
+    top: -250;
+    left: 350
